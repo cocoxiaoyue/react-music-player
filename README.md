@@ -1,6 +1,6 @@
 ## 基于React的音乐播放器
 
-## 参考项目
+## 项目环境 运行
 简书大佬的项目 https://www.jianshu.com/u/0b929752e087
 
 github上的开源的网易云音乐接口 https://github.com/agnij/NeteaseCloudMusicApi
