@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 命令行进入 react-music-player 项目 =>  进入 api 文件  => 命令行运行 set PORT=4000 && node app.js  开启网易云接口服务
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -42,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Something
+
+特别感谢接口提供者 https://github.com/agnij/NeteaseCloudMusicApi 
+
+特别感谢简书的大佬，此项目参考他的项目，但是很多地方有不一样 https://www.jianshu.com/u/0b929752e087
+
+此项目为锻炼使用 React 框架写的私人项目，属个人使用，如有侵权，请联系删除
