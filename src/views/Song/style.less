@@ -1,0 +1,64 @@
+@import '../../common/style/mixin.less';
+@import '../../common/style/variable.less';
+
+.song{
+    overflow: hidden;
+    min-width: 1000px;
+}
+.detail-page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    & > div{
+        display: flex;
+        width: 100%;
+        hyphens: auto;
+        background: hsla(0, 0%, 100%, 0.5);
+        overflow: hidden;
+        position: relative;
+    }
+    .filter{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        filter: blur(40px);
+        background-attachment: fixed;
+        background-repeat: repeat-x;
+        background-size: contain;
+    }
+    .left{
+        flex: 1;
+        position: relative;
+    }
+
+    .album-img{
+        width: 350px;
+        height: 350px;
+        transition: all 0.4s;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%);
+    }
+
+    .right{
+        flex: 1;
+        padding: 40px 200px 0 100px;
+        box-sizing: border-box;
+    }
+    .name{
+        position: absolute;
+        font-size: 32px;
+        color: #464646;
+        .mx_single_ellipsis();
+    }
+
+}
+Footer{
+    display: flex;
+}

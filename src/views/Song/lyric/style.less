@@ -1,0 +1,32 @@
+@import '../../../common/style/mixin.less';
+@import '../../../common/style/variable.less';
+
+.lyric-block{
+    height: 600px;
+    overflow: hidden;
+    margin-top: 60px;
+    position: relative;
+
+
+    .lyrics {
+        .mx_postl(0, 30px);
+        font-size: 16px;
+    }
+
+    .lyrics.move-animate {
+        transition: all 1s;
+    }
+
+    .line {
+        height: 28px;
+    }
+
+    .line.active {
+        color: skyblue;
+        font-size: 20px;
+    }
+    .lyric-info{
+        .mx_fc(24px, #000);
+        .mx_postl(100px, 200px);
+    }
+}

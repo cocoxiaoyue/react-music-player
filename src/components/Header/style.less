@@ -1,0 +1,42 @@
+@import '../../common/style/mixin.less';
+@import '../../common/style/variable.less';
+
+header {
+  .mx_fc(14px, #fff);
+  .mx_hlh(@headerHeight, @headerHeight);
+  box-sizing: border-box;
+  background-color: @neteaseRed;
+  cursor: default;
+  padding: 0 20px;
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+    margin-right: 30px;
+    .mx_hlh(@headerHeight, @headerHeight);
+  }
+
+  i {
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .title {
+    color: #fff;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .inputText{
+      margin-left: 133px;
+      width: 200px;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  .search{
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 18px;
+  }
+}
