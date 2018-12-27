@@ -8,7 +8,7 @@ github上的开源的网易云音乐接口 https://github.com/agnij/NeteaseCloud
 ## 项目实现
 1、该项目是使用React的脚手架create-react-app进行搭建
 
-2、该项目是使用上述的网易云的音乐接口项目
+2、该项目是使用上述的网易云的音乐接口项目作为数据源的获取
 
 3、前期使用atom进行编写，后半部分使用VScode进行项目的编写
 
