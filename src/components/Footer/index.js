@@ -224,8 +224,9 @@ class Footer extends Component{
              } = this.state;
         const { song } = this.props.playQueue;
         const duration = song.duration || song.dt;
-        const artists = song.artists || song.ar
-        const album = song.album || song.al
+        const artists = song.artists || song.ar;
+        const album = song.album || song.al;
+        const picUrl = album.picUrl || "https://p1.music.126.net/RLeBJe4D1ZzUtltxfoKDMg==/109951163250239066.jpg?param=50y50"
         return(
             <footer key="player">
                 <audio
@@ -240,7 +241,7 @@ class Footer extends Component{
                 </audio>
                 <div className="player-album">
                     <Link to={{ pathname:`/lyric/${song.id}`}}>
-                        <img src={album.picUrl} alt="album-img"/>
+                        <img src={picUrl} alt="album-img"/>
                     </Link>
                 </div>
                 <div className="player-btns">

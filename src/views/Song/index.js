@@ -18,7 +18,7 @@ class SongDetailPage extends Component{
         const { currentTime, song } = this.props.playQueue;
         const { lyric } = this.props.lyric;
         const album = song.album || song.al;
-        const coverImg = album.picUrl;
+        const coverImg = album.picUrl || "https://p1.music.126.net/RLeBJe4D1ZzUtltxfoKDMg==/109951163250239066.jpg?param=800y800";
         return(
             <div className="song">
                 <div>

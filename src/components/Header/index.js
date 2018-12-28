@@ -25,9 +25,6 @@ class Header extends Component{
     handleChange(event){
         this.setState({value: event.target.value});
     }
-    // 搜索歌曲
-    handleSelectSong = () =>{
-    }
     render(){
         const {pathname} = this.props.location;
         const title = getTitle(menuInfo, pathname);
@@ -49,12 +46,12 @@ class Header extends Component{
                         <Link to={{pathname:`/search/${songStr}`}}>
                             <Icon 
                                 type="search" 
-                                className="search" onClick={this.handleSelectSong}/>
+                                className="search"/>
                          </Link>)
                          : (
                             <Icon 
                             type="search" 
-                            className="search" onClick={this.handleSelectSong}/>)
+                            className="search"/>)
                 }
                
                 <Icon type="close" className="right" />
