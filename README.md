@@ -2,7 +2,9 @@
 
 ## 项目环境 运行
 1、该项目是基于node环境，通过create-react-app搭建的react项目，所以该项目应在装有node的机器上运行
+
 2、该项目运用的是网易云音乐接口，所以应该下载网易云音乐接口项目https://github.com/agnij/NeteaseCloudMusicApi 并运行set PORT=4000 && node app.js 开启4000端口
+
 3、使用npm start 启动该项目
 
 ## 项目实现
