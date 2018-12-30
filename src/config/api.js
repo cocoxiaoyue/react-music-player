@@ -23,5 +23,10 @@ export function topPlaylist(limit) {
   return `http://localhost:4000/top/playlist?limit=${limit}`
 }
 
+// 歌曲搜素
+export function SeachSong(value){
+  return `http://localhost:4000/search?keywords=${value}`
+}
+
 // 轮播图
 export const bannerUrl = '/api/banner'
